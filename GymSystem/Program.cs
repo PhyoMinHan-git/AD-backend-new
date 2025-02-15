@@ -1,12 +1,18 @@
 using GymSystem.Repository;
 using GymSystem.Service;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Any, 80);
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// ×¢²á´æ´¢¿âºÍ·þÎñ
+// ×¢ï¿½ï¿½æ´¢ï¿½ï¿½Í·ï¿½ï¿½ï¿½
 builder.Services.AddScoped<AvailableTimeRepository>();
 builder.Services.AddScoped<AdminRepository>();
 builder.Services.AddScoped<BookingRepository>();
