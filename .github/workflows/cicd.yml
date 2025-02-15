@@ -1,0 +1,105 @@
+name: .NET CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x' # Or your specific version
+
+      - name: Restore dependencies
+        run: dotnet restore ./GymSystem.sln # Use the .sln for restoring all projects
+
+      - name: Build
+        run: dotnet build ./GymSystem.sln --configuration Release # Build the solution
+
+      - name: Publish # Add a publish step for a smaller deployable artifact
+        run: dotnet publish ./GymSystem/GymSystem.csproj -c Release -o /app/publish
+
+      - name: Upload Build Artifact (Optional but recommended)
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: /app/publish # Upload the publish directory
+
+  docker:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download Build Artifact (If you used the upload step)
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifact
+          path: /app/publish
+
+      - name: Login to Docker Hub
+        run: |
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Build Docker Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest . -f ./Dockerfile # Specify Dockerfile path
+          docker tag ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest ${{ secrets.DOCKER_USERNAME }}/AD-backend:${{ github.sha }}
+
+      - name: Push Docker Image
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/AD-backend:${{ github.sha }} # Push tagged image as well
+
+  deploy:
+    needs: docker
+    runs-on: ubuntu-latest
+    environment: production # Or your environment name
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create .ssh directory
+        run: |
+          mkdir -p ~/.ssh
+
+      - name: Decode and save EC2 SSH private key
+        run: |
+          echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" | base64 --decode > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+      - name: Install AWS CLI (Simplified)
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: SSH and Deploy
+        run: |
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ubuntu@${{ secrets.EC2_PUBLIC_IP }} << 'EOF'
+            echo "Pulling the latest Docker image..."
+            docker pull ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest
+
+            echo "Stopping and removing old container (more robust)..."
+            docker stop AD-backend 2>/dev/null || true  # Suppress "no such container" error
+            docker rm AD-backend 2>/dev/null || true
+
+            echo "Running new container..."
+            docker run -d --name AD-backend -p 80:80 ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest
+          EOF
