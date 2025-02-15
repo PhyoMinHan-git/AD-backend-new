@@ -52,7 +52,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest . -f ./Dockerfile # Specify Dockerfile path
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest .
           docker tag ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }}
 
       - name: Push Docker Image
