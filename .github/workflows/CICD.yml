@@ -74,7 +74,7 @@ jobs:
 
       - name: Decode and save EC2 SSH private key
         run: |
-          echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" | base64 --decode > ~/.ssh/id_rsa
+          echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
       - name: Install AWS CLI (Simplified)
