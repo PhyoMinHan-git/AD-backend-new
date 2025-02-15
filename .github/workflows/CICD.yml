@@ -3,7 +3,7 @@ name: .NET CI/CD Pipeline
 on:
   push:
     branches: [ main ]
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,22 +14,22 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.x' # Or your specific version
+          dotnet-version: '8.x'
 
       - name: Restore dependencies
-        run: dotnet restore ./GymSystem.sln # Use the .sln for restoring all projects
+        run: dotnet restore ./GymSystem.sln
 
       - name: Build
-        run: dotnet build ./GymSystem.sln --configuration Release # Build the solution
+        run: dotnet build ./GymSystem.sln --configuration Release
 
-      - name: Publish # Add a publish step for a smaller deployable artifact
+      - name: Publish
         run: dotnet publish ./GymSystem/GymSystem.csproj -c Release -o ${{ github.workspace }}/publish
 
-      - name: Upload Build Artifact (Optional but recommended)
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
           name: build-artifact
-          path: ${{ github.workspace }}/publish # Upload the publish directory
+          path: ${{ github.workspace }}/publish
 
   docker:
     needs: build
@@ -38,7 +38,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download Build Artifact (If you used the upload step)
+      - name: Download Build Artifact
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
@@ -48,20 +48,18 @@ jobs:
         run: |
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
-      - name: Build Docker Image
+      - name: Build Docker Compose Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest .
-          docker tag ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }}
+          docker-compose -f docker-compose.yml build
 
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }} # Push tagged image as well
+          docker-compose push
 
   deploy:
     needs: docker
     runs-on: ubuntu-latest
-    environment: production # Or your environment name
+    environment: production
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -75,7 +73,7 @@ jobs:
           echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
-      - name: Install AWS CLI (Simplified)
+      - name: Install AWS CLI
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip awscliv2.zip
@@ -88,16 +86,15 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: SSH and Deploy
+      - name: SSH and Deploy with Docker Compose
         run: |
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ec2-user@${{ secrets.EC2_PUBLIC_IP }} << 'EOF'
-            echo "Pulling the latest Docker image..."
-            docker pull ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
+            echo "Pulling the latest Docker Compose image..."
+            docker-compose -f docker-compose.yml pull
 
-            echo "Stopping and removing old container (more robust)..."
-            docker stop ad-backend 2>/dev/null || true  # Suppress "no such container" error
-            docker rm ad-backend 2>/dev/null || true
+            echo "Stopping and removing the old containers..."
+            docker-compose -f docker-compose.yml down
 
-            echo "Running new container..."
-            docker run -d --name ad-backend -p 80:80 ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
+            echo "Starting the new containers..."
+            docker-compose -f docker-compose.yml up -d
           EOF
