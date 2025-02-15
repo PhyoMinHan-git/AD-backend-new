@@ -16,7 +16,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM coaches WHERE username=@username";
+                string sql = @"SELECT * FROM adproject.coaches WHERE username=@username";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@username", username);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -53,7 +53,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM coaches WHERE id=@id";
+                string sql = @"SELECT * FROM adproject.coaches WHERE id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -90,7 +90,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM coaches";
+                string sql = @"SELECT * FROM adproject.coaches";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 List<Coach> coaches = new List<Coach>();
@@ -125,7 +125,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET rating = @rating, numberofrating=@number WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET rating = @rating, numberofrating=@number WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", coachId);
                 cmd.Parameters.AddWithValue("@rating",rating);
@@ -139,7 +139,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET password = @pwd WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET password = @pwd WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@pwd", pwd);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -152,7 +152,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET email = @email WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET email = @email WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@email", email);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -165,7 +165,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET phonenumber = @number WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET phonenumber = @number WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@number", number);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -178,7 +178,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET description = @description WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET description = @description WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@description", description);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -191,7 +191,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET numofExercise = @number WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET numofExercise = @number WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@number", number);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -205,7 +205,7 @@ namespace GymSystem.Repository
             {
                 conn.Open();
                 string sql = @"SELECT DATEDIFF(CURDATE(), STR_TO_DATE(registerDate, '%Y-%m-%d')) AS registeredDays
-                FROM coaches WHERE id = @id";
+                FROM adproject.coaches WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -223,7 +223,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET level = @level WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET level = @level WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@level", level);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -236,7 +236,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO coaches(username, password, email, phoneNumber, isRookie, description, experienceYear, specialization,certifications,registerDate)
+                string sql = @"INSERT INTO adproject.coaches(username, password, email, phoneNumber, isRookie, description, experienceYear, specialization,certifications,registerDate)
                 VALUES(@username, @pwd, @email, @phoneNumber,@isRookie,@description,@year,@specialization,@certifications,CURDATE())";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@username", username);
@@ -259,7 +259,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT *  FROM Coaches
+                string sql = @"SELECT *  FROM adproject.Coaches
                 ORDER BY rating ASC LIMIT 5";
                 MySqlCommand cmd = new MySqlCommand( sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -294,7 +294,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"DELETE FROM coaches WHERE username = @name";
+                string sql = @"DELETE FROM adproject.coaches WHERE username = @name";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@name", username);
                 cmd.ExecuteNonQuery();
@@ -308,7 +308,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE coaches SET dates = @dates WHERE id = @id";
+                string sql = @"UPDATE adproject.coaches SET dates = @dates WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@dates", dates);
                 cmd.Parameters.AddWithValue("@id", id);

@@ -18,8 +18,8 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT b.*, c.username AS coachName FROM bookings b 
-                               JOIN coaches c ON b.coachId = c.id 
+                string sql = @"SELECT b.*, c.username AS coachName FROM adproject.bookings b 
+                               JOIN adproject.coaches c ON b.coachId = c.id 
                                WHERE b.customerId = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", customerId);
@@ -50,7 +50,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM bookings WHERE id=@id";
+                string sql = @"SELECT * FROM adproject.bookings WHERE id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -79,8 +79,8 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT b.*, c.username AS coachName FROM bookings b 
-                               JOIN coaches c ON b.coachId = c.id 
+                string sql = @"SELECT b.*, c.username AS coachName FROM adproject.bookings b 
+                               JOIN adproject.coaches c ON b.coachId = c.id 
                                WHERE b.coachId = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", coachId);
@@ -111,7 +111,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO Bookings (customerId, coachId, date, startTime, endTime, status, coachName) VALUES (@customerId, @coachId, @date, @startTime, @endTime, 'Successful', @coachName)";
+                string sql = @"INSERT INTO adproject.Bookings (customerId, coachId, date, startTime, endTime, status, coachName) VALUES (@customerId, @coachId, @date, @startTime, @endTime, 'Successful', @coachName)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@customerId", customerId);
                 cmd.Parameters.AddWithValue("@coachId", coachId);
@@ -127,7 +127,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql= @"DELETE FROM bookings WHERE id = @id";
+                string sql= @"DELETE FROM adproject.bookings WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
@@ -138,7 +138,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE bookings SET status = 'finished' WHERE id = @id";
+                string sql = @"UPDATE adproject.bookings SET status = 'finished' WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();

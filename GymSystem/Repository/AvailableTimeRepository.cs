@@ -16,7 +16,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT time FROM AvailableTime WHERE coachId=@id AND date=@date";
+                string sql = @"SELECT time FROM adproject.AvailableTime WHERE coachId=@id AND date=@date";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", coachId);
                 cmd.Parameters.AddWithValue("@date", date);
@@ -37,7 +37,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE AvailableTime SET time = @time WHERE coachId = @id AND date = @date";
+                string sql = @"UPDATE adproject.AvailableTime SET time = @time WHERE coachId = @id AND date = @date";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", coachId);
                 cmd.Parameters.AddWithValue("@date", date);
@@ -51,7 +51,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO availableTime (coachId, date, time)
+                string sql = @"INSERT INTO adproject.availableTime (coachId, date, time)
                 VALUES(@id, @date, @time)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", coachId);

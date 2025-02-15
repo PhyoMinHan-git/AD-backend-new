@@ -10,9 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc026445-a4e3-4239-93f0-b8101c6c702c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/GymSystem/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GymSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GymSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/AdminRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/AdminRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/AvailableTimeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/AvailableTimeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/BookingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/BookingRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/CoachRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/CoachRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/CustomerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/CustomerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/ExerciseDataRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/ExerciseDataRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/ExerciseHistoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/ExerciseHistoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/GymSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/GymSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/GymSystem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/GymSystem.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/GymSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/GymSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/ref/GymSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/ref/GymSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/refint/GymSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/refint/GymSystem.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +129,7 @@
       <workItem from="1739634776575" duration="1683000" />
       <workItem from="1739638988680" duration="5631000" />
       <workItem from="1739655438278" duration="55000" />
+      <workItem from="1739661518201" duration="1289000" />
     </task>
     <servers />
   </component>

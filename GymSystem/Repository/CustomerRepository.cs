@@ -19,7 +19,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM customers WHERE username=@username";
+                string sql = @"SELECT * FROM adproject.customers WHERE username=@username";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@username", username);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -50,7 +50,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM customers WHERE id=@id";
+                string sql = @"SELECT * FROM adproject.customers WHERE id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -88,7 +88,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO customers(username, password, email, phoneNumber, isRookie,age,gender,numOfExercise,registerDate,trainerEngagement)
+                string sql = @"INSERT INTO adproject.customers(username, password, email, phoneNumber, isRookie,age,gender,numOfExercise,registerDate,trainerEngagement)
                 VALUES(@username, @pwd, @email, @phoneNumber,@isRookie,@age,@gender,0,CURDATE(),false)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@username", username);
@@ -108,7 +108,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE customers SET password = @pwd WHERE id = @id";
+                string sql = @"UPDATE adproject.customers SET password = @pwd WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@pwd", pwd);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -121,7 +121,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE customers SET email = @email WHERE id = @id";
+                string sql = @"UPDATE adproject.customers SET email = @email WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@email", email);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -134,7 +134,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE customers SET phonenumber = @number WHERE id = @id";
+                string sql = @"UPDATE adproject.customers SET phonenumber = @number WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@number", number);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -147,7 +147,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE customers SET rating = @rating, numOfExercise=@number WHERE id = @id";
+                string sql = @"UPDATE adproject.customers SET rating = @rating, numOfExercise=@number WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@rating", rating);
                 cmd.Parameters.AddWithValue("@number", numOfExercise);
@@ -161,7 +161,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE customers SET level = @level WHERE id = @id";
+                string sql = @"UPDATE adproject.customers SET level = @level WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@level", level);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -174,7 +174,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE customers SET stickyLevel = @level WHERE id = @id";
+                string sql = @"UPDATE adproject.customers SET stickyLevel = @level WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@level", level);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -187,7 +187,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT type FROM exerciseHistories WHERE customerId = @id
+                string sql = @"SELECT type FROM adproject.exerciseHistories WHERE customerId = @id
                 GROUP BY type ORDER BY COUNT(*) DESC LIMIT 1";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
@@ -207,7 +207,7 @@ namespace GymSystem.Repository
             {
                 conn.Open();
                 string sql = @"SELECT DATEDIFF(CURDATE(), STR_TO_DATE(registerDate, '%Y-%m-%d')) AS registeredDays
-                FROM customers WHERE id = @id";
+                FROM adproject.customers WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -226,7 +226,7 @@ namespace GymSystem.Repository
             {
                 List<Customer> crisis = new List<Customer>();
                 conn.Open();
-                string sql = @"SELECT * FROM customers WHERE stickyLevel<=1";
+                string sql = @"SELECT * FROM adproject.customers WHERE stickyLevel<=1";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
