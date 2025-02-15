@@ -52,13 +52,13 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest . -f ./Dockerfile # Specify Dockerfile path
-          docker tag ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest ${{ secrets.DOCKER_USERNAME }}/AD-backend:${{ github.sha }}
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest . -f ./Dockerfile # Specify Dockerfile path
+          docker tag ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }}
 
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/AD-backend:${{ github.sha }} # Push tagged image as well
+          docker push ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }} # Push tagged image as well
 
   deploy:
     needs: docker
@@ -94,12 +94,12 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ubuntu@${{ secrets.EC2_PUBLIC_IP }} << 'EOF'
             echo "Pulling the latest Docker image..."
-            docker pull ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
 
             echo "Stopping and removing old container (more robust)..."
-            docker stop AD-backend 2>/dev/null || true  # Suppress "no such container" error
-            docker rm AD-backend 2>/dev/null || true
+            docker stop ad-backend 2>/dev/null || true  # Suppress "no such container" error
+            docker rm ad-backend 2>/dev/null || true
 
             echo "Running new container..."
-            docker run -d --name AD-backend -p 80:80 ${{ secrets.DOCKER_USERNAME }}/AD-backend:latest
+            docker run -d --name ad-backend -p 80:80 ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
           EOF
