@@ -1,0 +1,450 @@
+[
+  {
+    "ContainingType": "GymSystem.Controllers.BookingController",
+    "Method": "CancelBooking",
+    "RelativePath": "api/Booking/cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CancelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "SubmitAssessment",
+    "RelativePath": "api/CoachHome/assessment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessment",
+        "Type": "GymSystem.Controllers.TrainingAssessment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "GetFinishedBookings",
+    "RelativePath": "api/CoachHome/bookings/finished/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "GetUpcomingBookings",
+    "RelativePath": "api/CoachHome/bookings/upcoming/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "StoreStickyLevel",
+    "RelativePath": "api/CoachHome/consistency-level",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.ConsistencyLevelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "GetCustomerData",
+    "RelativePath": "api/CoachHome/customerData/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "GetCoachData",
+    "RelativePath": "api/CoachHome/data/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "StoreCoachLevel",
+    "RelativePath": "api/CoachHome/level",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CoachLecelUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachHomeController",
+    "Method": "GetProfile",
+    "RelativePath": "api/CoachHome/profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachProfileController",
+    "Method": "ModifyDescription",
+    "RelativePath": "api/CoachProfile/description",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CoachModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachProfileController",
+    "Method": "ModifyEmail",
+    "RelativePath": "api/CoachProfile/email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CoachModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachProfileController",
+    "Method": "ModifyPhoneNumber",
+    "RelativePath": "api/CoachProfile/number",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CoachModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CoachProfileController",
+    "Method": "ModifyPassword",
+    "RelativePath": "api/CoachProfile/password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CoachModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "BookCoach",
+    "RelativePath": "api/CustomerHome/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.BookCoachRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "getBookingList",
+    "RelativePath": "api/CustomerHome/bookings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "getAvailableCoach",
+    "RelativePath": "api/CustomerHome/coaches",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CoachListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "GetMemberData",
+    "RelativePath": "api/CustomerHome/data/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "getExerciseHistory",
+    "RelativePath": "api/CustomerHome/history/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "StoreCustomerLevel",
+    "RelativePath": "api/CustomerHome/level",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CustomerLevelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "getProfile",
+    "RelativePath": "api/CustomerHome/profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "RateCoach",
+    "RelativePath": "api/CustomerHome/rate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.RateCoachRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerHomeController",
+    "Method": "GetRecommendedExercise",
+    "RelativePath": "api/CustomerHome/recommendation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerProfileController",
+    "Method": "ModifyEmail",
+    "RelativePath": "api/CustomerProfile/email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.ModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerProfileController",
+    "Method": "ModifyPhoneNumber",
+    "RelativePath": "api/CustomerProfile/number",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.ModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.CustomerProfileController",
+    "Method": "ModifyPassword",
+    "RelativePath": "api/CustomerProfile/password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.ModificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.LoginController",
+    "Method": "CoachLogin",
+    "RelativePath": "api/Login/coach",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.LoginController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Login/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.CreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GymSystem.Controllers.LoginController",
+    "Method": "CustomerLogin",
+    "RelativePath": "api/Login/customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GymSystem.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

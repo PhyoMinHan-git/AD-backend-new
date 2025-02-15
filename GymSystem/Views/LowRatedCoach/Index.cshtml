@@ -1,0 +1,44 @@
+@model List<GymSystem.Models.Coach>
+@{
+    ViewData["Title"] = "Low Rated Coaches";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between mb-4">
+        <h2>Low Rated Coaches</h2>
+        <a href="@Url.Action("ShowDashboard", "AdminHome")" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Rating</th>
+                            <th>Number of Ratings</th>
+                            <th>Experience Years</th>
+                            <th>Level</th>
+                            <th>Specialization</th>
+                            <th>Certifications</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var coach in Model)
+                        {
+                            <tr>
+                                <td>@coach.username</td>
+                                <td>@coach.rating.ToString("F1")</td>
+                                <td>@coach.numofRating</td>
+                                <td>@coach.experienceYear</td>
+                                <td>@coach.level</td>
+                                <td>@coach.specialization</td>
+                                <td>@coach.certifications</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

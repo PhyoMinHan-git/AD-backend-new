@@ -1,0 +1,452 @@
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\谢林瀚1\source\repos\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\12929\Desktop\GymSystem_NET_0201\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\12929\Desktop\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\12929\Desktop\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\谢林瀚1\Downloads\GymSystem.NET_0214\GymSystem.NET_0213new\GymSystem.NET_0213new\GymSystem.NET_0203\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.endpoints.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\12929\Desktop\GymSystem.NET_0214\GymSystem.NET_0203\GymSystem\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\GymSystem.staticwebassets.runtime.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\GymSystem.exe
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\GymSystem.deps.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\GymSystem.runtimeconfig.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\GymSystem.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\GymSystem.pdb
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.csproj.AssemblyReference.cache
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfoInputs.cache
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.AssemblyInfo.cs
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.csproj.CoreCompileInputs.cache
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cache
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.RazorAssemblyInfo.cs
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.GymSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.GymSystem.props
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymSystem.props
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymSystem.props
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\scopedcss\bundle\GymSystem.styles.css
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\scopedcss\projectbundle\GymSystem.bundle.scp.css
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.csproj.Up2Date
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\refint\GymSystem.dll
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.pdb
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\GymSystem.genruntimeconfig.cache
+C:\Users\Phyo Min Han\Downloads\NUS-ISS\AD\AD-backend-new\GymSystem\obj\Debug\net8.0\ref\GymSystem.dll

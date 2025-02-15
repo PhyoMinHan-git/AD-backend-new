@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\repository\\exercisehistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repository\\exercisehistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\exercisehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\exercisehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\controllers\\customerhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\customerhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\views\\adminhome\\showdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\adminhome\\showdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\views\\coachcreate\\coachdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\coachcreate\\coachdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\views\\date\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\date\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\repository\\availabletimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repository\\availabletimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\controllers\\datecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\datecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\views\\crisiscustomer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\crisiscustomer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\repository\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repository\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\views\\lowratedcoach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\views\\lowratedcoach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\controllers\\coachcreatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\coachcreatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\controllers\\coachhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\coachhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\controllers\\customerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\controllers\\customerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\exercisedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\exercisedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\repository\\exercisedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\repository\\exercisedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|c:\\users\\12929\\desktop\\gymsystem.net_0214\\gymsystem.net_0203\\gymsystem\\gymsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0889AB9B-1B30-4312-B863-2983C47B169A}|GymSystem\\GymSystem.csproj|solutionrelative:gymsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Service\\LoginService.cs*",
+              "RelativeToolTip": "GymSystem\\Service\\LoginService.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:34:46.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CustomerHomeController.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Controllers\\CustomerHomeController.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CustomerHomeController.cs",
+              "RelativeToolTip": "GymSystem\\Controllers\\CustomerHomeController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAowKAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:23:49.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExerciseHistoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\ExerciseHistoryRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Repository\\ExerciseHistoryRepository.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\ExerciseHistoryRepository.cs",
+              "RelativeToolTip": "GymSystem\\Repository\\ExerciseHistoryRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:20:42.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExerciseHistory.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\ExerciseHistory.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\ExerciseHistory.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\ExerciseHistory.cs",
+              "RelativeToolTip": "GymSystem\\Models\\ExerciseHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:19:47.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\CrisisCustomer\\Index.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\CrisisCustomer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\CrisisCustomer\\Index.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\CrisisCustomer\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T05:27:22.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\AdminHome\\ShowDashboard.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\AdminHome\\ShowDashboard.cshtml",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\AdminHome\\ShowDashboard.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\AdminHome\\ShowDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T05:26:55.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CoachDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\CoachCreate\\CoachDelete.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\CoachCreate\\CoachDelete.cshtml",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\CoachCreate\\CoachDelete.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\CoachCreate\\CoachDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T05:20:11.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\Date\\Index.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\Date\\Index.cshtml",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\Date\\Index.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\Date\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowEUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T05:10:16.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DateController.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\DateController.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Controllers\\DateController.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\DateController.cs",
+              "RelativeToolTip": "GymSystem\\Controllers\\DateController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:03:43.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AvailableTimeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\AvailableTimeRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Repository\\AvailableTimeRepository.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\AvailableTimeRepository.cs",
+              "RelativeToolTip": "GymSystem\\Repository\\AvailableTimeRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:06:48.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Repository\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "GymSystem\\Repository\\AdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:45:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CoachRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\CoachRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Repository\\CoachRepository.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\CoachRepository.cs",
+              "RelativeToolTip": "GymSystem\\Repository\\CoachRepository.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAAwDgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:32:54.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\LowRatedCoach\\Index.cshtml",
+              "RelativeDocumentMoniker": "GymSystem\\Views\\LowRatedCoach\\Index.cshtml",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Views\\LowRatedCoach\\Index.cshtml",
+              "RelativeToolTip": "GymSystem\\Views\\LowRatedCoach\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T05:28:00.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoachCreateController.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CoachCreateController.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Controllers\\CoachCreateController.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CoachCreateController.cs",
+              "RelativeToolTip": "GymSystem\\Controllers\\CoachCreateController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:03:55.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CustomerProfileController.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Controllers\\CustomerProfileController.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CustomerProfileController.cs",
+              "RelativeToolTip": "GymSystem\\Controllers\\CustomerProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:11:17.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Customer.cs",
+              "RelativeToolTip": "GymSystem\\Models\\Customer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBEAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T15:04:00.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoachHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CoachHomeController.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Controllers\\CoachHomeController.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Controllers\\CoachHomeController.cs",
+              "RelativeToolTip": "GymSystem\\Controllers\\CoachHomeController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAawJsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T05:39:28.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExerciseData.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\ExerciseData.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\ExerciseData.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\ExerciseData.cs",
+              "RelativeToolTip": "GymSystem\\Models\\ExerciseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T17:24:34.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Repository\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\BookingRepository.cs",
+              "RelativeToolTip": "GymSystem\\Repository\\BookingRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwE0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T12:16:13.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExerciseDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\ExerciseDataRepository.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Repository\\ExerciseDataRepository.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Repository\\ExerciseDataRepository.cs",
+              "RelativeToolTip": "GymSystem\\Repository\\ExerciseDataRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwCwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T17:19:22.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Admin.cs",
+              "RelativeToolTip": "GymSystem\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:28:58.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Booking.cs",
+              "RelativeToolTip": "GymSystem\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T16:13:21.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Date.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\Date.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\Date.cs",
+              "RelativeToolTip": "GymSystem\\Models\\Date.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T07:30:12.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GymSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\12929\\Desktop\\GymSystem.NET_0214\\GymSystem.NET_0203\\GymSystem\\GymSystem\\Models\\User.cs",
+              "RelativeToolTip": "GymSystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T15:01:03.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

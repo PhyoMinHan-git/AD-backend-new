@@ -1,0 +1,53 @@
+@model GymSystem.Controllers.DashboardData
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between mb-4">
+        <h2>Admin Dashboard</h2>
+        <a href="@Url.Action("Login", "Admin")" class="btn btn-danger">Logout</a>
+    </div>
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Exercises</h5>
+                    <h2 class="card-text">@Model.totExerciseNum</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Weekly Exercises</h5>
+                    <h2 class="card-text">@Model.weekExerciseNum</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-info text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Most Popular Type</h5>
+                    <h2 class="card-text">@Model.MostPopularType</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-around">
+                        <a href="@Url.Action("CoachCreate", "CoachCreate")" class="btn btn-primary">Create Coach</a>
+                        <a href="@Url.Action("CoachDelete", "CoachCreate")" class="btn btn-danger">Delete Coach</a>
+                        <a href="@Url.Action("Index", "CrisisCustomer")" class="btn btn-warning">Check Crisis Customers</a>
+                        <a href="@Url.Action("Index", "Date")" class="btn btn-success">Modify Coach Schedule</a>
+                        <a href="@Url.Action("Index", "LowRatedCoach")" class="btn btn-info">View Low-Rated Coaches</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,83 @@
+﻿@model GymSystem.Controllers.AddDateRequest
+@{
+    ViewData["Title"] = "Add Available Dates";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var errorMessage = TempData["ErrorMessage"] as string;
+}
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between mb-4">
+        <h3>Add Coach Available Time</h3>
+        <a href="@Url.Action("ShowDashboard", "AdminHome")" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            @using (Html.BeginForm("Add", "Date", FormMethod.Post))
+            {
+                <div class="form-group mb-3">
+                    <label for="username">Coach Username</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="startTime">Start Time (0-23)</label>
+                        <input type="number" class="form-control" id="startTime" name="startTime" required min="0" max="23">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="endTime">End Time (0-23)</label>
+                        <input type="number" class="form-control" id="endTime" name="endTime" required min="0" max="23">
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label>Select Dates</label>
+                    <div id="dateContainer">
+                        <div class="input-group mb-2">
+                            <input type="date" class="form-control date-input" required>
+                            <input type="hidden" name="dates">
+                            <button type="button" class="btn btn-success" onclick="addDateField()">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary" onclick="return formatDates()">Add Available Time</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function addDateField() {
+            const container = document.getElementById('dateContainer');
+            const newField = document.createElement('div');
+            newField.className = 'input-group mb-2';
+            newField.innerHTML = `
+                <input type="date" class="form-control date-input" required>
+                <input type="hidden" name="dates">
+                <button type="button" class="btn btn-danger" onclick="this.parentElement.remove()">-</button>
+            `;
+            container.appendChild(newField);
+        }
+
+        function formatDates() {
+            const dateInputs = document.querySelectorAll('.date-input');
+            const hiddenInputs = document.querySelectorAll('input[name="dates"]');
+
+            dateInputs.forEach((input, index) => {
+                if (input.value) {
+                    // 移除日期中的所有连字符
+                    const formattedDate = input.value.replace(/-/g, '');
+                    hiddenInputs[index].value = formattedDate;
+                }
+            });
+
+            return true;
+        }
+    </script>
+}

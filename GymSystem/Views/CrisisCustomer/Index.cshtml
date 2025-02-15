@@ -1,0 +1,44 @@
+@model List<GymSystem.Models.Customer>
+@{
+    ViewData["Title"] = "Crisis Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between mb-4">
+        <h2>Crisis Customers List</h2>
+        <a href="@Url.Action("ShowDashboard", "AdminHome")" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Exercise Count</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var customer in Model)
+                        {
+                            <tr>
+                                <td>@customer.username</td>
+                                <td>@customer.email</td>
+                                <td>@customer.phoneNumber</td>
+                                <td>@customer.age</td>
+                                <td>@customer.gender</td>
+                                <td>@customer.numOfExercise</td>
+                                <td>@customer.level</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
