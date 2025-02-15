@@ -25,7 +25,7 @@ jobs:
         run: dotnet build ./GymSystem.sln --configuration Release # Build the solution
 
       - name: Publish # Add a publish step for a smaller deployable artifact
-        run: dotnet publish ./GymSystem/GymSystem.csproj -c Release -o /app/publish
+        run: dotnet publish ./GymSystem/GymSystem.csproj -c Release -o ${{ github.workspace }}/publish
 
       - name: Upload Build Artifact (Optional but recommended)
         uses: actions/upload-artifact@v4
