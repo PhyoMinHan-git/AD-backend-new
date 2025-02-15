@@ -3,7 +3,7 @@ name: .NET CI/CD Pipeline
 on:
   push:
     branches: [ main ]
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,22 +14,22 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.x'
+          dotnet-version: '8.x' # Or your specific version
 
       - name: Restore dependencies
-        run: dotnet restore ./GymSystem.sln
+        run: dotnet restore ./GymSystem.sln # Use the .sln for restoring all projects
 
       - name: Build
-        run: dotnet build ./GymSystem.sln --configuration Release
+        run: dotnet build ./GymSystem.sln --configuration Release # Build the solution
 
-      - name: Publish
+      - name: Publish # Add a publish step for a smaller deployable artifact
         run: dotnet publish ./GymSystem/GymSystem.csproj -c Release -o ${{ github.workspace }}/publish
 
-      - name: Upload Build Artifact
+      - name: Upload Build Artifact (Optional but recommended)
         uses: actions/upload-artifact@v4
         with:
           name: build-artifact
-          path: ${{ github.workspace }}/publish
+          path: ${{ github.workspace }}/publish # Upload the publish directory
 
   docker:
     needs: build
@@ -38,7 +38,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download Build Artifact
+      - name: Download Build Artifact (If you used the upload step)
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
@@ -47,19 +47,18 @@ jobs:
       - name: Login to Docker Hub
         run: |
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
-
-      - name: Build Docker Compose Image
+      - name: Build Docker Image
         run: |
-          docker-compose -f docker-compose.yml build
-
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest .
+          docker tag ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }}
       - name: Push Docker Image
         run: |
-          docker-compose push
-
+          docker push ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/ad-backend:${{ github.sha }} # Push tagged image as well
   deploy:
     needs: docker
     runs-on: ubuntu-latest
-    environment: production
+    environment: production # Or your environment name
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -67,18 +66,15 @@ jobs:
       - name: Create .ssh directory
         run: |
           mkdir -p ~/.ssh
-
       - name: Decode and save EC2 SSH private key
         run: |
           echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-
-      - name: Install AWS CLI
+      - name: Install AWS CLI (Simplified)
         run: |
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip awscliv2.zip
           sudo ./aws/install --update
-
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
@@ -86,15 +82,14 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
-      - name: SSH and Deploy with Docker Compose
+      - name: SSH and Deploy
         run: |
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ec2-user@${{ secrets.EC2_PUBLIC_IP }} << 'EOF'
-            echo "Pulling the latest Docker Compose image..."
-            docker-compose -f docker-compose.yml pull
-
-            echo "Stopping and removing the old containers..."
-            docker-compose -f docker-compose.yml down
-
-            echo "Starting the new containers..."
-            docker-compose -f docker-compose.yml up -d
+            echo "Pulling the latest Docker image..."
+            docker pull ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
+            echo "Stopping and removing old container (more robust)..."
+            docker stop ad-backend 2>/dev/null || true  # Suppress "no such container" error
+            docker rm ad-backend 2>/dev/null || true
+            echo "Running new container..."
+            docker run -d --name ad-backend -p 80:80 ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
           EOF
