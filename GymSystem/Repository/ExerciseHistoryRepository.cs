@@ -137,7 +137,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT COUNT(*) AS TotalCount FROM exerciseHistories";
+                string sql = @"SELECT COUNT(*) AS TotalCount FROM exercisehistories";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
