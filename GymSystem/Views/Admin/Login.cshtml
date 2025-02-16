@@ -1,7 +1,14 @@
 @{
     ViewData["Title"] = "Admin Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var errorMessage = TempData["ErrorMessage"] as string;
 }
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
 <div class="row justify-content-center mt-5">
     <div class="col-md-6">
         <div class="card">
