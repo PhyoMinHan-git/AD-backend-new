@@ -187,7 +187,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT type FROM adproject.exerciseHistories WHERE customerId = @id
+                string sql = @"SELECT type FROM adproject.exercisehistories WHERE customerId = @id
                 GROUP BY type ORDER BY COUNT(*) DESC LIMIT 1";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);

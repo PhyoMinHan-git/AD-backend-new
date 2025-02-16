@@ -111,7 +111,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO adproject.Bookings (customerId, coachId, date, startTime, endTime, status, coachName) VALUES (@customerId, @coachId, @date, @startTime, @endTime, 'Successful', @coachName)";
+                string sql = @"INSERT INTO adproject.bookings (customerId, coachId, date, startTime, endTime, status, coachName) VALUES (@customerId, @coachId, @date, @startTime, @endTime, 'Successful', @coachName)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@customerId", customerId);
                 cmd.Parameters.AddWithValue("@coachId", coachId);

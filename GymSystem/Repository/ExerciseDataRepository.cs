@@ -46,7 +46,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE adproject.exerciseData SET BPM = @BPM, avgCalories=@calories, avgMinutes=@minutes, exerciseTime=@number, height=@height, weight=@weight WHERE id = @id";
+                string sql = @"UPDATE adproject.exercisedata SET BPM = @BPM, avgCalories=@calories, avgMinutes=@minutes, exerciseTime=@number, height=@height, weight=@weight WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@BPM", BPM);
                 cmd.Parameters.AddWithValue("@calories", avgCalories);
@@ -64,7 +64,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO adproject.exerciseData(customerId, height, weight, BPM, avgCalories,avgMinutes,exerciseTime)
+                string sql = @"INSERT INTO adproject.exercisedata(customerId, height, weight, BPM, avgCalories,avgMinutes,exerciseTime)
                 VALUES(@id, @height, @weight, @BPM,@calories,@duration,1)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@BPM", BPM);
