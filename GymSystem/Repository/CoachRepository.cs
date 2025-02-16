@@ -259,7 +259,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT *  FROM adproject.Coaches
+                string sql = @"SELECT *  FROM adproject.coaches
                 ORDER BY rating ASC LIMIT 5";
                 MySqlCommand cmd = new MySqlCommand( sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();

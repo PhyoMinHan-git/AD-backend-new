@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc026445-a4e3-4239-93f0-b8101c6c702c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GymSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GymSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Repository/CoachRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Repository/CoachRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1739634776575" duration="1683000" />
       <workItem from="1739638988680" duration="5631000" />
       <workItem from="1739655438278" duration="55000" />
-      <workItem from="1739661518201" duration="4345000" />
+      <workItem from="1739661518201" duration="5231000" />
     </task>
     <servers />
   </component>
