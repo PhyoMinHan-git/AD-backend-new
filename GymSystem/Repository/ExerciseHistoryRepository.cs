@@ -19,7 +19,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM adproject.exerciseHistories WHERE customerId=@id";
+                string sql = @"SELECT * FROM adproject.exercisehistories WHERE customerId=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", customerId);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -52,7 +52,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT * FROM adproject.exerciseHistories WHERE coachId=@id";
+                string sql = @"SELECT * FROM adproject.exercisehistories WHERE coachId=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", coachId);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -84,7 +84,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE adproject.exerciseHistories SET isRated = TRUE WHERE id = @id";
+                string sql = @"UPDATE adproject.exercisehistories SET isRated = TRUE WHERE id = @id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
@@ -96,7 +96,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO adproject.exerciseHistories(customerId, coachName, duration, calories, date,BPM,type,coachId,exerciseType)
+                string sql = @"INSERT INTO adproject.exercisehistories(customerId, coachName, duration, calories, date,BPM,type,coachId,exerciseType)
                 VALUES(@customerId, @coachName, @duration, @calories,@date,@BPM,@type,@coachId,@exerciseType)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@customerId",customerId);
@@ -117,7 +117,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT COUNT(*) AS record_count FROM adproject.exerciseHistories
+                string sql = @"SELECT COUNT(*) AS record_count FROM adproject.exercisehistories
                 WHERE customerId = @id AND exerciseType = @type";
                 MySqlCommand cmd = new MySqlCommand( sql, conn);
                 cmd.Parameters.AddWithValue("@id", customerId);
@@ -154,7 +154,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT COUNT(*) AS TotalCount FROM adproject.ExerciseHistories
+                string sql = @"SELECT COUNT(*) AS TotalCount FROM adproject.exercisehistories
                 WHERE STR_TO_DATE(date, '%Y%m%d') >= DATE_SUB(CURDATE(), INTERVAL 7 DAY)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
@@ -172,7 +172,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT exerciseType, COUNT(*) AS totalCount FROM adproject.ExerciseHistories
+                string sql = @"SELECT exerciseType, COUNT(*) AS totalCount FROM adproject.Exercisehistories
                 GROUP BY exerciseType
                 ORDER BY totalCount DESC
                 LIMIT 1;";
