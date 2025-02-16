@@ -88,14 +88,14 @@ jobs:
             echo "Pulling the latest Docker image..."
             docker pull ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
             echo "Stopping and removing old container (more robust)..."
-            docker stop ad-backend 2>/dev/null || true  # Suppress "no such container" error
+            docker stop ad-backend 2>/dev/null || true
             docker rm ad-backend 2>/dev/null || true
             echo "Running new container..."
             docker run -d --name ad-backend -p 80:80 \
-            -e RDS_HOSTNAME=${{ secrets.RDS_HOSTNAME }} \
-            -e RDS_PORT=${{ secrets.RDS_PORT }} \
-            -e RDS_DATABASE=${{ secrets.RDS_DATABASE }} \
-            -e RDS_USERNAME=${{ secrets.RDS_USERNAME }} \
-            -e RDS_PASSWORD=${{ secrets.RDS_PASSWORD }} \ 
-            ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
+              -e RDS_HOSTNAME=${{ secrets.RDS_HOSTNAME }} \
+              -e RDS_PORT=${{ secrets.RDS_PORT }} \
+              -e RDS_DATABASE=${{ secrets.RDS_DATABASE }} \
+              -e RDS_USERNAME=${{ secrets.RDS_USERNAME }} \
+              -e RDS_PASSWORD=${{ secrets.RDS_PASSWORD }} \
+              ${{ secrets.DOCKER_USERNAME }}/ad-backend:latest
           EOF
