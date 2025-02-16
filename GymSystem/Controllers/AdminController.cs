@@ -23,9 +23,15 @@ namespace GymSystem.Controllers
         public IActionResult ValidateLogin(AdminLoginRequest request)
         {
             Admin admin = adminRepo.FindAdminByName(request.username);
-            if (admin.pwd == request.password) return RedirectToAction("ShowDashboard","AdminHome");
-            ViewBag.Error = "Wrong username or password!";
-            return View();
+            
+            if (admin == null || admin.pwd != request.password)
+            {
+                TempData["ErrorMessage"] = "Wrong username or password!";
+                ViewBag.Error = "Wrong username or password!";
+                return View(); 
+            }
+            
+            return RedirectToAction("ShowDashboard","AdminHome");
         }
         
     }

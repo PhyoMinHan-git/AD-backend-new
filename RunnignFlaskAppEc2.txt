@@ -1,0 +1,32 @@
+i am now currently run my flask app on ec2 instance using
+
+source mlenv/bin/activate
+
+cd AD-ml
+
+export FLASK_APP=FlaskApi.py
+
+flask run --host=0.0.0.0 --port=5000
+
+i want to run it all the time if the ec2 instance is running
+
+Ans:
+1.Create a systemd service file:
+sudo nano /etc/systemd/system/flaskapp.service
+
+2.Add the following content:
+[Unit]
+Description=Flask App
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/home/ec2-user/AD-ml
+Environment="FLASK_APP=FlaskApi.py"
+ExecStart=/home/ec2-user/mlenv/bin/python -m flask run --host=0.0.0.0 --port=5000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+3.systemctl strat,enable,status
