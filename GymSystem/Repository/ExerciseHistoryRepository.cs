@@ -172,7 +172,7 @@ namespace GymSystem.Repository
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"SELECT exerciseType, COUNT(*) AS totalCount FROM adproject.Exercisehistories
+                string sql = @"SELECT exerciseType, COUNT(*) AS totalCount FROM adproject.exercisehistories
                 GROUP BY exerciseType
                 ORDER BY totalCount DESC
                 LIMIT 1;";
