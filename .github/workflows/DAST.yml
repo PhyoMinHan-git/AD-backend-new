@@ -1,0 +1,34 @@
+name: DAST Security Scan
+
+on:
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches: [ main ]  # Runs on each push to main
+
+jobs:
+  dast-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create ZAP Scan Script
+        run: |
+          echo '#!/bin/bash' > zap-script.sh
+          echo 'docker pull zaproxy/zap-stable' >> zap-script.sh
+          echo 'docker run -i zaproxy/zap-stable zap-baseline.py -t "http://18.142.229.91/" -l PASS > zap_baseline_report.html' >> zap-script.sh
+          echo 'echo $? > /dev/null' >> zap-script.sh
+          chmod +x zap-script.sh  # Make script executable
+      - name: Run ZAP Scan
+        run: ./zap-script.sh  # Execute script
+
+      - name: Find Generated Reports
+        run: find . -name "*.html" -print
+
+      - name: Upload ZAP Scan Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zap-report
+          path: "**/*.html"
