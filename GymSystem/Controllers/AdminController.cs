@@ -28,7 +28,7 @@ namespace GymSystem.Controllers
             {
                 TempData["ErrorMessage"] = "Wrong username or password!";
                 ViewBag.Error = "Wrong username or password!";
-                return RedirectToAction("Login", "AdminHome"); 
+                return RedirectToAction("Login", "Admin"); 
             }
             
             return RedirectToAction("ShowDashboard","AdminHome");
