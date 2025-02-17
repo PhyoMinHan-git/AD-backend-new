@@ -34,7 +34,7 @@ namespace GymSystem.Controllers
                 List<string> time = new List<string>();
                 for (int i = 0; i < 24; i++)
                 {
-                    if (i >= request.startTime && i <= request.endTime) time.Add("YES");
+                    if (i >= request.startTime && i < request.endTime) time.Add("YES");
                     else time.Add("No");
                 }
                 timeRepo.CreateAvailableTime(coach.id, date, string.Join(",", time));

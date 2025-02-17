@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc026445-a4e3-4239-93f0-b8101c6c702c" name="Changes" comment="" />
+    <list default="true" id="dc026445-a4e3-4239-93f0-b8101c6c702c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GymSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GymSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/Controllers/DateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/Controllers/DateController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GymSystem/obj/Debug/net8.0/GymSystem.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +116,9 @@
       <workItem from="1739661518201" duration="9794000" />
       <workItem from="1739720443203" duration="2552000" />
       <workItem from="1739723695994" duration="307000" />
+      <workItem from="1739725101018" duration="215000" />
+      <workItem from="1739727761451" duration="260000" />
+      <workItem from="1739754872968" duration="2969000" />
     </task>
     <servers />
   </component>
